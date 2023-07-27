@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V3</title>
+	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="{{ asset('assetlogin/images/icons/favicon.ico')}}"/>
+	<link rel="icon" type="image/png" href="{{ asset('assethome/images/icon.png')}}"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset('assetlogin/vendor/bootstrap/css/bootstrap.min.css')}}">
 <!--===============================================================================================-->
@@ -30,7 +30,7 @@
 <body>
 
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('{{ asset('assetlogin/images/bg-01.jpg')}}');">
+		<div class="container-login100" style="background-image: url('{{ asset('assetlogin/images/back1.jpg')}}');">
 			<div class="wrap-login100">
 				<form method="POST" action="{{ route('login') }}" class="login100-form validate-form">
 					@csrf
@@ -43,7 +43,7 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter email">
-						<input class="input100" type="email" value="{{old('email')}}" name="email" placeholder="Username">
+						<input class="input100" type="email" value="{{old('email')}}" name="email" placeholder="Email">
 						<span class="focus-input100" data-placeholder="&#xf207;"></span>
                         <x-input-error :messages="$errors->get('email')" class="mt-2" />
                     </div>

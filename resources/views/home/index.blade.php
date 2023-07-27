@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Topic Listing Bootstrap 5 Template</title>
+        <title>Simulation</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+
+	    <link rel="icon" type="image/png" href="{{ asset('assethome/images/icon.png') }}"/>
 
         <link href="{{ asset('assethome/css/bootstrap.min.css') }}" rel="stylesheet">
 
@@ -38,7 +40,7 @@
                 <div class="container">
                     <a class="navbar-brand" href="{{ route('home') }}">
                         <i class="bi-back"></i>
-                        <span>Topic</span>
+                        <span>FOM-Sim</span>
                     </a>
 
                     <div class="d-lg-none ms-auto me-4">
@@ -52,15 +54,15 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-lg-5 me-lg-auto">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                <a class="nav-link click-scroll" href="#section_1">Accueil</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">Browse Topics</a>
+                                <a class="nav-link click-scroll" href="#section_2">A Propos</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                                <a class="nav-link click-scroll" href="#section_3">Comment ça marche ?</a>
                             </li>
 
                             <li class="nav-item">
@@ -71,19 +73,10 @@
                                 <a class="nav-link click-scroll" href="#section_5">Contact</a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
-
-                                <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="topics-listing.html">Topics Listing</a></li>
-
-                                    <li><a class="dropdown-item" href="contact.html">Contact Form</a></li>
-                                </ul>
-                            </li>
                         </ul>
 
                         <div class="d-none d-lg-block">
-                            <a href="{{route('login')}}" class="navbar-icon bi-person smoothscroll"></a>
+                            <a href="{{route('login')}}" alt="LOGIN" class="navbar-icon bi-person smoothscroll"></a>
                         </div>
                     </div>
                 </div>
@@ -634,17 +627,17 @@
                     <div class="row">
 
                         <div class="col-lg-12 col-12 text-center">
-                            <h2 class="mb-5">Get in touch</h2>
+                            <h2 class="mb-5">Entrer en contact</h2>
                         </div>
 
                         <div class="col-lg-5 col-12 mb-4 mb-lg-0">
-                            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.065641062665!2d-122.4230416990949!3d37.80335401520422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858127459fabad%3A0x808ba520e5e9edb7!2sFrancisco%20Park!5e1!3m2!1sen!2sth!4v1684340239744!5m2!1sen!2sth" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe class="google-map" src="https://www.google.com/maps/place/ENSET+Douala/@4.0567099,9.7412479,1101m/data=!3m2!1e3!4b1!4m6!3m5!1s0x10610d98cd1c0cb9:0xdd72d50dbc051a34!8m2!3d4.0567046!4d9.7438228!16s%2Fg%2F122tpqhg?hl=en&entry=ttu" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
-                            <h4 class="mb-3">Head office</h4>
+                            <h4 class="mb-3">Siège social</h4>
 
-                            <p>Bay St &amp;, Larkin St, San Francisco, CA 94109, United States</p>
+                            <p>Cameroun &amp;, Douala, ENSET</p>
 
                             <hr>
 
@@ -652,31 +645,7 @@
                                 <span class="me-2">Phone</span>
 
                                 <a href="tel: 305-240-9671" class="site-footer-link">
-                                    305-240-9671
-                                </a>
-                            </p>
-
-                            <p class="d-flex align-items-center">
-                                <span class="me-2">Email</span>
-
-                                <a href="mailto:info@company.com" class="site-footer-link">
-                                    info@company.com
-                                </a>
-                            </p>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-12 mx-auto">
-                            <h4 class="mb-3">Dubai office</h4>
-
-                            <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
-
-                            <hr>
-
-                            <p class="d-flex align-items-center mb-1">
-                                <span class="me-2">Phone</span>
-
-                                <a href="tel: 110-220-3400" class="site-footer-link">
-                                    110-220-3400
+                                    677024546
                                 </a>
                             </p>
 
@@ -699,22 +668,22 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-12 mb-4 pb-2">
-                        <a class="navbar-brand mb-2" href="index.html">
+                        <a class="navbar-brand mb-2" href="{{ route('home') }}">
                             <i class="bi-back"></i>
-                            <span>Topic</span>
+                            <span>FOM-Sim</span>
                         </a>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-6">
-                        <h6 class="site-footer-title mb-3">Resources</h6>
+                        <h6 class="site-footer-title mb-3">Ressources</h6>
 
                         <ul class="site-footer-links">
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Home</a>
+                                <a href="#" class="site-footer-link">Accueil</a>
                             </li>
 
                             <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">How it works</a>
+                                <a href="#" class="site-footer-link">Comment ça marche ?</a>
                             </li>
 
                             <li class="site-footer-link-item">
@@ -731,8 +700,8 @@
                         <h6 class="site-footer-title mb-3">Information</h6>
 
                         <p class="text-white d-flex mb-1">
-                            <a href="tel: 305-240-9671" class="site-footer-link">
-                                305-240-9671
+                            <a href="tel: 677024546" class="site-footer-link">
+                                677024546
                             </a>
                         </p>
 
@@ -744,21 +713,9 @@
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            English</button>
 
-                            <ul class="dropdown-menu">
-                                <li><button class="dropdown-item" type="button">Thai</button></li>
-
-                                <li><button class="dropdown-item" type="button">Myanmar</button></li>
-
-                                <li><button class="dropdown-item" type="button">Arabic</button></li>
-                            </ul>
-                        </div>
-
-                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2048 Topic Listing Center. All rights reserved.
-                        <br><br>Design: <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> Distribution <a href="https://themewagon.com">ThemeWagon</a></p>
+                        <p class="copyright-text mt-lg-5 mt-4">Copyright © 2023 Simulation Process. All rights reserved.
+                        <br><br>Design: <a rel="nofollow" href="http://fed-technology.com" target="_blank"></a> Distribution <a href="http://fed-technology.com"> FED</a></p>
 
                     </div>
 
