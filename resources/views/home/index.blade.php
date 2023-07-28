@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Simulation</title>
+        <title>FOM Simulation</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -630,8 +630,11 @@
                             <h2 class="mb-5">Entrer en contact</h2>
                         </div>
 
-                        <div class="col-lg-5 col-12 mb-4 mb-lg-0">
-                            <iframe class="google-map" src="https://www.google.com/maps/place/ENSET+Douala/@4.0567099,9.7412479,1101m/data=!3m2!1e3!4b1!4m6!3m5!1s0x10610d98cd1c0cb9:0xdd72d50dbc051a34!8m2!3d4.0567046!4d9.7438228!16s%2Fg%2F122tpqhg?hl=en&entry=ttu" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="mapouter col-lg-5 col-12 mb-4 mb-lg-0">
+                            <div class="gmap_canvas">
+                                <iframe width="770" height="370" id="gmap_canvas" src="https://maps.google.com/maps?q=enset douala&t=&z=16&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <br><style>.mapouter{position:relative;text-align:right;height:510px;width:770px;}</style><a href="https://embedgooglemap.2yu.co">Enset, University of Douala</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:510px;width:770px;}</style>
+                            </div>
                         </div>
 
                         <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
