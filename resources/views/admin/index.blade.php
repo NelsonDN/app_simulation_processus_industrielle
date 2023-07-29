@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- Primary Meta Tags -->
-<title>FOM-SIM | Interface de simulation</title>
+<title>FOM-Sim | Interface de simulation</title>
 <link rel="icon" type="image/png" href="{{ asset('assethome/images/icon.png') }}"/>
 
 <meta name="title" content="Flowy - The simple flowchart engine">
@@ -33,7 +33,7 @@
     <div id="navigation">
         <div id="leftside">
             <div id="details">
-            <div id="back"><img src="{{ asset('assethome/images/icon.png') }}"></div>
+            <div id="back"><a href="{{ route('home') }}"><img src="{{ asset('assethome/images/icon.png') }}"></a></div>
             <div id="names">
                 <p id="title">Interface de simulation</p>
                 <p id="subtitle">Fabrication du pain</p>
@@ -44,7 +44,7 @@
             <div id="leftswitch">Diagramme</div>
         </div>
         <div id="buttonsright">
-            <div id="discard"><a href="{{ route('profile.edit') }}" style="text-decoration:none;" >Profile</a></div>
+            <div id="discard"><a href="{{ route('profile.edit') }}" style="text-decoration:none;" >Profile | {{Auth::user()->name}} </a></div>
             <div id="publish">
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
@@ -68,7 +68,8 @@
             <input type="text" placeholder="Search blocks">
         </div> --}}
         <div id="subnav">
-            <div id="triggers" class="navactive side">Ingrédients</div>
+            <div id="etapes" class="navactive side">Etapes</div>
+            <div id="triggers" class="navdisabled side">Ingrédients</div>
             <div id="actions" class="navdisabled side">Ustensiles</div>
             <div id="loggers" class="navdisabled side">Préparation</div>
         </div>
